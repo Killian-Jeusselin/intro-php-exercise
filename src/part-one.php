@@ -1,7 +1,7 @@
 <?php
 # Première Partie les fonctions
 
-# Exercice 1 : la fonction suivante doit retourner la fonction Hello World!
+# Exercice 1 : la fonction suivante doit retourner la string Hello World!
 function helloWorld() {
 }
 
@@ -56,7 +56,7 @@ function isMoreThanTen(){
 
 }
 
-#Exercice 10 : calculer la moyenne qui sont dans la fonction
+#Exercice 10 : calculer la moyenne des valeurs présentes dans la fonction
 function getUserAverageScore(){
     $mathScore = 15;
     $englishScore = 12;
