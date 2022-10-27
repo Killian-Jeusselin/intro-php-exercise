@@ -15,3 +15,4 @@ L'exercice se découpe 2 parties :
 ___ 
 Lisez bien les exercices, n'oubliez pas également de remplir le fichier index.php avec les appels de fonctions .
 Vous avez le droit d'utiliser la documentation de php.net et de regarder les projets réalisés pendant le module.
+___
