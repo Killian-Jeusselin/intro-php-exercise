@@ -4,11 +4,11 @@
 
 # [Le Dragon] Dans le dossier src, créez une classe Dragon décrit comme suit :
 
-    # Cette classe possède 3 propriétés : $lifePoints égale à 100, $strength égale à 15 et $name qui sera définit après
+    # Cette classe possède 3 propriétés : $lifePoints égale à 100, $strength égale à 15 et $name qui sera défini après
 
-    # Dans le constructeur du Dragon sera passé le $name en argument qui définiera la propriété de la classe
+    # Dans le constructeur du Dragon sera passé le $name en argument qui définira la propriété de la classe
 
-    # Le Dragon possède un méthode public attack qui retourne la valeur de sa strength s'il à plus de 50 $lifePoints
+    # Le Dragon possède une méthode 'public attack' qui retourne la valeur de sa strength s'il a plus de 50 $lifePoints
     # sinon la méthode retourne la strength du dragon multiplié par 1.5
 
     # Ajouté une propriété isAlive au dragon égale à true
@@ -19,7 +19,7 @@
 
 
 # [Le Chevalier] Dans le dossier src, créez une nouvelle classe Knight qui reprend pour le moment
-# la même structure que le Dragon (même méthodes, mêmes propriétés vous pouvez copier/coller en changeant juste le nom de class)
+# la même structure que le Dragon (mêmes méthodes, mêmes propriétés vous pouvez copier/coller en changeant juste le nom de class)
 
     # Le Chevalier possède en plus de son nom, une force d'arme, soit une propriété $weaponStrength, initialisée même moment que son nom
 
