@@ -11,7 +11,7 @@
 <body>
 <?php
 require_once('./src/part-one.php');
-require_once('./src/part-two.php');
+require_once('./src/Fight.php');
 ?>
 <ul>
     <h2>Les fonctions en PHP</h2>
@@ -74,7 +74,11 @@ require_once('./src/part-two.php');
 <ul>
     <li>
         Résultats du combat :
-        <strong><?php  ?></strong>
+        <strong>
+            <?php 
+                echo (new Fight)->fight(); 
+            ?>
+        </strong>
     </li>
 </ul>
 </body>
