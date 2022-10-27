@@ -15,8 +15,9 @@ class Fight
 
     public function fight()
     {
-        while ($this->dragon->isAlive == true && $this->knight->isAlive == true) {
-            $this->dragon->takeDamage($this->knight->attack());
+        while ($this->dragon->isAlive == true && $this->knight->isAlive == true){
+            $this->knight->attack();
+            $this->dragon->takeDamage($this->knight->strength);
             $this->knight->takeDamage($this->dragon->attack());
         }
 
