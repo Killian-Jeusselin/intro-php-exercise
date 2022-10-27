@@ -2,19 +2,23 @@
 # Première Partie les fonctions
 
 # Exercice 1 : la fonction suivante doit retourner la string Hello World!
-function helloWorld() {
+function helloWorld() 
+{
+    return "Hello World !";
 }
 
 # Exercice 2 : la fonction suivante doir retourner l'argument multiplié par 100
-function multiplyByHundred($parameter) {
+function multiplyByHundred($parameter) 
+{
+    return $parameter * 100;
 
 }
 
 # Exercice 3 : la fonction suivante prend 2 arguments de types string et en retourne la concatenation des deux
 # séparée par un espace
-function concatenate()
+function concatenate(string $a, string $b)
 {
-
+    return $a . " " . $b;
 }
 
 # Exercice 4 : la fonction suivante prend en argument un integer, si l'argument
